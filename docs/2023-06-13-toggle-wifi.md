@@ -6,6 +6,8 @@ date: 2023-06-13
 nav_order: 2
 ---
 
+# Toggle WiFi on and off - Automator shell script
+
 Goal: have a simple shortcut if I want to turn WiFi on or off. Shows how it's done with Automator and a script.
 
 To assign a shortcut to some action, we need to define it first.
