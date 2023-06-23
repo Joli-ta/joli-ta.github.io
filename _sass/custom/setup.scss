@@ -2,3 +2,31 @@
 // define new SCSS variables or functions.
 // Should not be used for defining custom styles (see the next section) 
 // or overriding color scheme variables (in this case, you should create a new color scheme).
+
+// All site variables:
+// https://github.com/just-the-docs/just-the-docs/blob/24372f02a9867af92d0a9a9e2d3418485bd4e1c8/_sass/support/_variables.scss
+
+@import
+  url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap'),
+  url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700');
+
+@font-face {
+  font-family: WorkSans;
+  src: url("/assets/Work_Sans/WorkSans-VariableFont_wght.ttf") format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: WorkSans;
+  src: url("/assets/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf") format('truetype');
+  font-style: italic;
+}
+
+$sans-serif: 'WorkSans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$monospace: 'PT Mono', 'Monaco', 'Bitstream Vera Sans Mono', 'Lucida Console', 'Terminal', monospace;
+
+$body-font-family: $sans-serif;
+$mono-font-family: $monospace;
+
+$body-line-height: 1.6 !default;
+$content-line-height: 1.6 !default;
+$body-heading-line-height: 1.2 !default;
