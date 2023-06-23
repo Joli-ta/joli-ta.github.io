@@ -33,6 +33,7 @@ $mono-font-family: $monospace;
 
 $root-font-size: 14px !default;
 $body-line-height: 1.5 !default;
+$code-line-height: 1.2 !default;
 $content-line-height: 1.5 !default;
 $body-heading-line-height: 1.25 !default;
 
@@ -63,6 +64,7 @@ pre {
   background-color: $code-background-color;
   border: $header-line;
   border-radius: $border-radius;
+  line-height: $code-line-height;
 }
 
 // base style:
