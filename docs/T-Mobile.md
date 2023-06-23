@@ -1,8 +1,9 @@
 ---
 layout: default
+parent: Internet
 title: T-Mobile home internet
 date: 2023-06-05
-nav_order: 3
+nav_order: 1
 ---
 
 # T-Mobile home internet gateway settings
