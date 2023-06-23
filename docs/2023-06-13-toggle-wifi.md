@@ -10,7 +10,16 @@ nav_order: 2
 
 {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
  <p class="text-small text-grey-dk-000 mb-0 mr-2">
-   Page last modified: <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}</span>.
+   Page last modified: 
+   <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}
+     &nbsp; &bull; &nbsp;
+     {% assign words = page.content | number_of_words %}
+     {% if words < 360 %}
+       1 min read
+     {% else %}
+       {{ words | divided_by:180 }} min read
+     {% endif %}
+    </span>
  </p>
 {% endif %}
 
