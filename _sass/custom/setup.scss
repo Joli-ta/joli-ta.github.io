@@ -34,7 +34,7 @@ $mono-font-family: $monospace;
 $root-font-size: 15px !default;
 $body-line-height: 1.6 !default;
 $content-line-height: 1.6 !default;
-$body-heading-line-height: 1.4 !default;
+$body-heading-line-height: 1.25 !default;
 
 // Font size
 // `-sm` suffix is the size at the small (and above) media query
@@ -47,7 +47,7 @@ $font-size-4: 0.875rem !default;
 $font-size-5: 1rem !default; // h3
 $font-size-6: 1.125rem !default; // h2
 $font-size-7: 1.5rem !default;
-$font-size-8: $root-font-size + 16px !default; // h1
+$font-size-8: $root-font-size + 15px !default; // h1
 $font-size-9: 2.25rem !default;
 $font-size-10: 2.625rem !default;
 $font-size-10-sm: 3rem !default;
@@ -68,6 +68,7 @@ h6,
 #toctitle {
   margin-top: 15px;
   margin-bottom: 10px;
+  padding-bottom: 5px;
   font-weight: 700;
   font-family: $header-font-family;
   border-bottom: $header-line;
