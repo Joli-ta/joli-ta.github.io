@@ -2,24 +2,20 @@
 layout: default
 parent: Internet
 title: WiFi toggle
+date: 2023-06-13
 last_modified_date: 2023-06-13
 nav_order: 2
 ---
 
 # Toggle WiFi on and off - Automator shell script
 
-{% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
+{% if page.date %}
  <p class="text-small text-grey-dk-000 mb-0 mr-2">
-   Page last modified: 
-   <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}
-     &nbsp; &bull; &nbsp;
+   <span class="d-inline-block">{{ page.date | date: site.last_edit_time_format }} &nbsp; &bull; &nbsp;
      {% assign words = page.content | number_of_words %}
-     {% if words < 360 %}
-       1 min read
-     {% else %}
-       {{ words | divided_by:180 }} min read
-     {% endif %}
-    </span>
+     {% if words < 360 %}1 min read{% else %}
+     {{ words | divided_by:180 }} min read{% endif %}
+   </span>
  </p>
 {% endif %}
 
