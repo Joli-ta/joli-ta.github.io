@@ -32,8 +32,8 @@ $header-font-family: $serif;
 $mono-font-family: $monospace;
 
 $root-font-size: 15px !default;
-$body-line-height: 1.6 !default;
-$content-line-height: 1.6 !default;
+$body-line-height: 1.5 !default;
+$content-line-height: 1.5 !default;
 $body-heading-line-height: 1.25 !default;
 
 // Font size
@@ -72,6 +72,21 @@ h6,
   font-weight: 700;
   font-family: $header-font-family;
   border-bottom: $header-line;
+}
+
+// Images
+
+// Specify width %:
+// <img class="centered" width="10%;" src="/assets/images/qr-primal-verity.png" />
+// 2023.06.15 removed margin: auto; replaced to give space top and bottom
+.centered {
+  	border-radius: $border-radius;
+  	border: $header-line;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  	display: block;
 }
 
 /* nocomment https://github.com/fiatjaf/nocomment */
