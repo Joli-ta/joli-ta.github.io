@@ -17,7 +17,7 @@ date_format: "%Y.%m.%d"
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%Y.%m.%d" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
-enable_copy_code_button: true # For copy button on code
+enable_copy_code_button: false # For copy button on code
 
 search_enabled: true
 search:
