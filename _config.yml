@@ -5,7 +5,7 @@ remote_theme: just-the-docs/just-the-docs
 url: https://joli-ta.github.io
 
 aux_links:
-  Template Repository: https://joli-ta.github.io
+  GitHub Repository: https://github.com/Joli-ta/joli-ta.github.io
 
 # remote_theme: just-the-docs/just-the-docs # (owner/theme) if Settings - Pages - publishing from this branch.
 # theme: just-the-docs # if Settings - Pages - published with github actions
