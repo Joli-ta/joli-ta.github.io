@@ -2,11 +2,17 @@
 layout: default
 parent: Internet
 title: WiFi toggle
-date: 2023-06-13
+last_modified_date: 2023-06-13
 nav_order: 2
 ---
 
 # Toggle WiFi on and off - Automator shell script
+
+{% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
+ <p class="text-small text-grey-dk-000 mb-0 mr-2">
+   Page last modified: <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}</span>.
+ </p>
+{% endif %}
 
 Goal: have a simple shortcut if I want to turn WiFi on or off. Shows how it's done with Automator and a script.
 
