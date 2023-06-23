@@ -4,6 +4,8 @@ remote_theme: just-the-docs/just-the-docs
 
 url: https://joli-ta.github.io
 
+favicon_ico: "/assets/images/fav1.png"
+
 aux_links:
   GitHub Repository: https://github.com/Joli-ta/joli-ta.github.io
 
