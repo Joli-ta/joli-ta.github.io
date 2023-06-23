@@ -9,6 +9,8 @@ logo: "/assets/images/fav1.png" # displayed instead of title
 
 aux_links:
   GitHub Repository: https://github.com/Joli-ta/joli-ta.github.io
+  # Light Theme: jtd.setTheme("light")
+  # Dark Theme: jtd.setTheme("dark")
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
