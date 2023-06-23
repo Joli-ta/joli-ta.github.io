@@ -55,14 +55,14 @@ $font-size-10-sm: 3rem !default;
 
 // Colors
 
-// $code-background-color: $grey-lt-000 !default; 
+// $code-background-color: $grey-lt-000 !default; // light theme
 $header-line: 1px solid rgb(175,175,175);
 
-// Code
+// Code block
 
+// background-color: $code-background-color;
 pre {
   padding: 4px 12px;
-  background-color: $code-background-color;
   border: $header-line;
   border-radius: $border-radius;
   line-height: $code-line-height;
