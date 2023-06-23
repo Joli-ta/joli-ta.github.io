@@ -2,7 +2,7 @@
 layout: default
 parent: Internet
 title: T-Mobile home internet
-date: 2023-06-05
+last_modified_date: 2023.06.05
 nav_order: 1
 ---
 
