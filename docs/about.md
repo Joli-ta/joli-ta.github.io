@@ -14,7 +14,7 @@ When I saw how limited my T-Mobile home internet gateway settings are, I used it
 
 It's a great journey and I love every step along the way. Thank you for encouraging me and pushing me to work harder with your sponsorship!
 
-## Keep in touch
+# Keep in touch
 
 - [Nostr (primal.net)](https://primal.net/profile/npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3)
 
@@ -22,7 +22,7 @@ It's a great journey and I love every step along the way. Thank you for encourag
 
 - [GitHub discussion](https://github.com/verityj/verityj.github.io/discussions/1)
 
-### Show your support
+# Show your support
 
 <img src="/assets/images/strike.png" width="20px;" /> &emsp; Tip a satoshi with Lightning [(Strike)](https://strike.me/verity/)
 
@@ -31,8 +31,9 @@ It's a great journey and I love every step along the way. Thank you for encourag
 <img src="/assets/images/p.png" width="20px;" /> &emsp; And lo and behold there was [PayPal](https://www.paypal.com/donate/?hosted_button_id=D2SU4GD8PEXCW)
 
 <img class="centered" width="8%;" style="margin-top: 30px;" src="/assets/images/qr-primal-verity.png" />
+{: .text-center }
 
-#### Say Hi!
+# Say Hi!
 
 <span class="nocomment">
   <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment" data-owner="npub1vy40z9dxr943vkz6xp54elflf7hxcly46q2qwcpvzfy47qq3syxqqchgk3" data-custom-base="note1z7lysage232ukggx69plhc2gr7y63zvech3grm9td6033w3tetzsrh640q">
