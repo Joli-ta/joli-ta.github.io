@@ -79,17 +79,17 @@ pre {
 }
 
 code {
-  @include fs-4;
+  @include fs-3;
   border-radius: $border-radius;
+  border: none;
 }
 
 /* code blocks are inside preformatted highlight */
-.highlight {
-  @include fs-4;
-  border-radius: $border-radius;
-  line-height: $code-line-height;
-  border: $border $border-color;
-}
+//.highlight {
+//  border-radius: $border-radius;
+//  line-height: $code-line-height;
+//  border: $border $border-color;
+//}
 
 :not(figure) {
   & > code, pre {
