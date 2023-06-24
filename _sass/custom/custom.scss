@@ -76,7 +76,7 @@ h2,
 
 // More space for title
 .side-bar {
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 // Bold
@@ -126,8 +126,8 @@ strong {
 // needs to be at the end to revert absolutely everything above
 td, th, .gist, .blob-code {
   all: revert;
-  font-family: $monospace;
-  @include fs-3;
+  font-family: $monospace !important;
+  font-size: 13px !important;
   font-weight: 200 !important;
 }
 // font-family: $monospace !important;
