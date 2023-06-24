@@ -45,10 +45,12 @@ pre {
   @include fs-3;
   padding: 4px 12px;
   line-height: $code-line-height;
+  border: none;
 }
 
 code {
   @include fs-3;
+  border: none;
 }
 
 /* inline code is affected, not code blocks */
@@ -59,7 +61,7 @@ code.highlighter-rouge {
 
 // code blocks (">" direct child selector)
 div.highlighter-rouge > div.highlight {
-  $border-color: rgb(0,200,0);
+  $border-color: rgb(200,200,200);
   border-radius: $border-radius;
   border: $border $border-color;
 }
