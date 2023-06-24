@@ -43,6 +43,7 @@ code {
 
 // Paragraphs
 
-p {
-  font-size: $font-size-5;
+body {
+  @include fs-5;
 }
+// font-size: $font-size-5;
