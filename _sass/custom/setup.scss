@@ -31,9 +31,9 @@ $body-font-family: $sans-serif;
 $header-font-family: $serif;
 $mono-font-family: $monospace;
 
-$root-font-size: 14px !default;
+$root-font-size: 15px !default;
 $body-line-height: 1.5 !default;
-$code-line-height: 1.2 !default;
+$code-line-height: 1.3 !default;
 $content-line-height: 1.5 !default;
 $body-heading-line-height: 1.25 !default;
 
@@ -55,17 +55,19 @@ $font-size-10-sm: 3rem !default;
 
 // Colors
 
-// $code-background-color: $grey-lt-000 !default; // light theme
+$code-background-color: rgb(175,175,175) // $grey-lt-000 !default; // light theme
 $header-line: 1px solid rgb(175,175,175);
 
 // Code block
 
 // background-color: $code-background-color;
 pre {
+  font-size: $root-font-size - 2px;
   padding: 4px 12px;
-  border: $header-line;
+  border: 1px solid rgb(100,100,100);
   border-radius: $border-radius;
   line-height: $code-line-height;
+  background-color: $code-background-color;
 }
 
 // base style:
