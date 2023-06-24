@@ -69,6 +69,7 @@ h6 {
 }
 #toctitle {
   font-family: $header-font-family;
+  border-bottom: revert;
   border-bottom: none;
 }
 h1,
@@ -92,7 +93,7 @@ h2,
 // line-height: 1.4; // lh-tight class is $body-heading-line-height = 1.2
 // font-size: revert;
 div.site-header > a.site-title {
-  @include fs-5;
+  @include fs-6;
 }
 
 // Bold
@@ -130,12 +131,13 @@ td, .gist .blob-code {
 .nocomment {
   all: revert;
   @include fs-4;
+  $blue-color: $blue-000;
   --nc-background: $body-background-color;
   --nc-container-font-family: $body-font-family;
   --nc-container-font-size: $font-size-4;
   --nc-comment-author-font-size: $font-size-4;
   --nc-comment-author-font-family: $serif;
-  --nc-comment-author-font-color: rgb(80,80,247);
+  --nc-comment-author-font-color: $blue-color;
   --nc-comment-date-color: $body-text-color;
   --nc-comment-date-font-family: $sans-serif;
   --nc-comment-date-font-size: $font-size-2 !important;
@@ -145,7 +147,7 @@ td, .gist .blob-code {
   --nc-textarea-font-size: $font-size-4;
   --nc-text-background: rgb(255,255,255); // comment box text block background
   --nc-text-color: $body-text-color;
-  --nc-text-color-dark: rgb(80,80,247);
-  --nc-primary-color: rgb(80,80,247);
+  --nc-text-color-dark: $blue-color;
+  --nc-primary-color: $blue-color;
   --nc-primary-contrast: rgb(255,255,255);
 }
