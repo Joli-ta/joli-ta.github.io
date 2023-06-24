@@ -57,7 +57,7 @@ code.highlighter-rouge {
   border: none;
 }
 
-code {
+:root.code {
   border-radius: 7px;
   border: 1px solid red;
 }
@@ -101,8 +101,11 @@ strong {
   font-weight: 550;
 }
 
-// Small test (Page last modified, footer)
+// Small test (Page last modified)
 .text-small {
+  @include fs-3;
+}
+.site-footer {
   @include fs-3;
 }
 
