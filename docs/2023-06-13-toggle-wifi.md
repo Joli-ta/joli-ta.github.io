@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 parent: Internet
 title: WiFi toggle
 date: 2023-06-13
