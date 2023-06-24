@@ -9,8 +9,11 @@ logo: "/assets/images/fav1.png" # displayed instead of title
 
 aux_links:
   GitHub Repository: https://github.com/Joli-ta/joli-ta.github.io
-  # Light Theme: jtd.setTheme("light")
-  # Dark Theme: jtd.setTheme("dark")
+
+# Google Analytics Tracking (optional)
+# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
+ga_tracking: G-VD8N8M65XP
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 date_format: "%Y.%m.%d"
 # Footer last edited timestamp
