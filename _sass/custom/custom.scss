@@ -92,6 +92,16 @@ strong {
   @include fs-3;
 }
 
+// GISTS
+// needs to be at the end to revert absolutely everything above
+// td, th, .gist, .blob-code {
+.gist .blob-code {
+  all: revert;
+  font-family: $monospace !important;
+  font-size: $root-font-size + 3px !important;
+  font-weight: 200 !important;
+}
+
 // NOCOMMENT 
 /* https://github.com/fiatjaf/nocomment */
 /* put script inside <span class="nocomment"> */
@@ -121,14 +131,3 @@ strong {
   --nc-primary-color: rgb(80,80,247);
   --nc-primary-contrast: rgb(255,255,255);
 }
-
-// GISTS
-// needs to be at the end to revert absolutely everything above
-// td, th, .gist, .blob-code {
-.gist .blob-code {
-  all: revert;
-  font-family: $monospace !important;
-  font-size: $root-font-size + 3px !important;
-  font-weight: 200 !important;
-}
-// font-family: $monospace !important;
