@@ -69,7 +69,7 @@ h6 {
 }
 #toctitle {
   font-family: $header-font-family;
-  border: none;
+  border-bottom: none;
 }
 h1,
 .text-alpha {
@@ -92,7 +92,7 @@ h2,
 // line-height: 1.4; // lh-tight class is $body-heading-line-height = 1.2
 // font-size: revert;
 div.site-header > a.site-title {
-  @include fs-4;
+  @include fs-5;
 }
 
 // Bold
