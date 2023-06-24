@@ -4,3 +4,14 @@
 
 // base style:
 // https://github.com/just-the-docs/just-the-docs/blob/24372f02a9867af92d0a9a9e2d3418485bd4e1c8/_sass/base.scss
+
+// Code block
+
+// background-color: $code-background-color;
+pre {
+  font-size: $root-font-size - 2px;
+  padding: 4px 12px;
+  border: 1px solid rgb(100,100,100);
+  border-radius: $border-radius;
+  line-height: $code-line-height;
+}
