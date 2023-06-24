@@ -6,9 +6,9 @@
 // https://github.com/just-the-docs/just-the-docs/blob/24372f02a9867af92d0a9a9e2d3418485bd4e1c8/_sass/base.scss
 
 // all descendants of script
-script * {
+script:has(+ code, + div, + span) {
   font-size: 25px;
-  border: 1px solid green;
+  color: green;
 }
 
 h1,
