@@ -92,9 +92,10 @@ h2,
 //.side-bar {
 //  padding-top: 10px; - doesn't work for the bottom
 //}
-.site-header .site-title {
+div.site-header > a.site-title {
   margin-top: 20px;
   margin-bottom: 20px;
+  border: 1px solid red;
 }
 
 // Bold
