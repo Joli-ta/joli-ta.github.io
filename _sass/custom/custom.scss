@@ -15,3 +15,7 @@ pre {
   border-radius: $border-radius;
   line-height: $code-line-height;
 }
+
+code {
+  font-size: $root-font-size - 1px;
+}
