@@ -117,9 +117,10 @@ strong {
   --nc-primary-contrast: rgb(255,255,255);
 }
 
-// scripts, comment button to be at fs-3?
+// GISTS
+// needs to be at the end to revert absolutely everything above
 td, th, .gist, .blob-code {
-  all: revert! important;
+  all: revert;
   font-family: $monospace !important;
   font-size: 13px !important;
 }
