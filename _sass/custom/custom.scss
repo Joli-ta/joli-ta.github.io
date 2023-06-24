@@ -5,34 +5,9 @@
 // base style:
 // https://github.com/just-the-docs/just-the-docs/blob/24372f02a9867af92d0a9a9e2d3418485bd4e1c8/_sass/base.scss
 
-// scripts, comment button to be at fs-3
-:root {
-  @include fs-3;
-}
-html,
-body,
-div,
-span,
-ul,
-li,
-a,
-pre {
-  @include fs-4;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-#toctitle {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-  font-weight: 700;
-  font-family: $header-font-family;
-  border-bottom: $header-line;
+// scripts, comment button to be at fs-3?
+td, th, .gist, .blob-code {
+    all: revert;
 }
 
 // Images
