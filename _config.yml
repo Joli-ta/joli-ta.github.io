@@ -2,9 +2,9 @@ title: Optimize for happiness
 description: Let's make life easier with simple scripting. Leave more space for joy. Grateful for everyone's encouragement and support!
 remote_theme: just-the-docs/just-the-docs
 
-url: https://joli-ta.github.io
+url: "https://joli-ta.github.io"
 baseurl: "" # needed for links inside .md to another .md
-permalink: pretty
+# permalink: pretty
 
 favicon_ico: "/assets/images/fav1.png"
 # logo: "/assets/images/fav1.png" # displayed instead of title
