@@ -52,7 +52,8 @@ h1,
   font-weight: 500;
 }
 h2,
-.text-beta {
-  @include fs-6;
+.text-beta,
+#toctitle {
+  @include fs-5;
   font-weight: 500;
 }
