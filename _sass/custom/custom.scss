@@ -96,9 +96,9 @@ h2,
 //}
 div.side-bar > div.site-header,
 div.site-header > .site-title {
-  padding: revert;
+  padding-bottom: revert;
   padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-bottom: 10px !important;
 }
 div.site-header > a.site-title {
   line-height: 1.4; // lh-tight class is $body-heading-line-height = 1.2
