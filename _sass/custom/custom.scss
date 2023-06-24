@@ -123,4 +123,5 @@ td, th, .gist, .blob-code {
   all: revert;
   font-family: $monospace !important;
   @include fs-3;
+  font-weight: 300;
 }
