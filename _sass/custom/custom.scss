@@ -57,9 +57,10 @@ code.highlighter-rouge {
   border: none;
 }
 
+// code blocks (">" direct child selector)
 div.highlighter-rouge > div.highlight {
   border-radius: $border-radius;
-  border: 1px solid rgb(255,0,0);
+  border: $border $border-color;
 }
 
 // Paragraphs
