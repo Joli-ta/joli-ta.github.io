@@ -7,7 +7,7 @@
 
 // all html descendants that are script
 html script {
-  font-size: 25px !important;
+  @include fs-3 !important;
   color: green !important;
   font-color: blue !important;
 }
