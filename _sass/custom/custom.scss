@@ -90,10 +90,15 @@ h2,
 }
 
 // More space for title - make it smaller
-// line-height: 1.4; // lh-tight class is $body-heading-line-height = 1.2
-// font-size: revert;
-div.site-header > a.site-title {
-  @include fs-6;
+// div.site-header > a.site-title {
+//  @include fs-5;
+//}
+.main-header {
+    height: 70px
+}
+.site-header {
+    height: 70px;
+    max-height: revert;
 }
 
 // Bold
@@ -126,7 +131,7 @@ td, .gist .blob-code {
 /* text-background: comment box background = code block background */
 /* text-color: $base-font-color; = comment time and comment text */
 /* text-color-dark = "from <nostr username>" */
-/* primary-color: button background and border */
+/* primary-color: button background and border. $blue-000 = #2c84fa */
 /* primary-contrast: 'Get Key' button text color */
 .nocomment {
   all: revert;
@@ -146,7 +151,7 @@ td, .gist .blob-code {
   --nc-textarea-font-size: $font-size-4;
   --nc-text-background: rgb(255,255,255); // comment box text block background
   --nc-text-color: $body-text-color;
-  --nc-text-color-dark: $blue-000;
-  --nc-primary-color: $blue-000;
+  --nc-text-color-dark: #2c84fa;
+  --nc-primary-color: #2c84fa;
   --nc-primary-contrast: rgb(255,255,255);
 }
