@@ -5,8 +5,8 @@
 // base style:
 // https://github.com/just-the-docs/just-the-docs/blob/24372f02a9867af92d0a9a9e2d3418485bd4e1c8/_sass/base.scss
 
-html {
-  @include fs-3; // default fs-4 (base.scss)
+code {
+  @include fs-3; // default fs-4 for html - body inherits (base.scss)
 }
 
 h1,
