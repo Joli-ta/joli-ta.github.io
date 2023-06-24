@@ -19,12 +19,12 @@ pre {
 code {
   font-size: $root-font-size - 2px;
   border-radius: $border-radius;
+  border: 1px solid rgb(0,255,0);
 }
 
 /* code blocks are inside preformatted highlight */
 .highlight {
   font-size: $root-font-size - 2px;
   border-radius: $border-radius;
-  border: 1px solid rgb(0,255,0);
   line-height: $code-line-height;
 }
