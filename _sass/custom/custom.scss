@@ -126,21 +126,21 @@ td, .gist .blob-code {
 .nocomment {
   all: revert;
   @include fs-4;
-  --nc-background: $base-background;
-  --nc-container-font-family: $base-font-family;
+  --nc-background: $body-background-color;
+  --nc-container-font-family: $body-font-family;
   --nc-container-font-size: $font-size-4;
   --nc-comment-author-font-size: $font-size-4;
   --nc-comment-author-font-family: $serif;
   --nc-comment-author-font-color: rgb(80,80,247);
-  --nc-comment-date-color: $base-font-color;
+  --nc-comment-date-color: $body-text-color;
   --nc-comment-date-font-family: $sans-serif;
   --nc-comment-date-font-size: $font-size-2 !important;
   --nc-link-text-decor: none;
   --nc-link-text-decor-hover: none;
-  --nc-textarea-font-family: $base-font-family;
+  --nc-textarea-font-family: $body-font-family;
   --nc-textarea-font-size: $font-size-4;
-  --nc-text-background: $code-block-background;
-  --nc-text-color: $base-font-color;
+  --nc-text-background: rgb(255,255,255); // comment box text block background
+  --nc-text-color: $body-text-color;
   --nc-text-color-dark: rgb(80,80,247);
   --nc-primary-color: rgb(80,80,247);
   --nc-primary-contrast: rgb(255,255,255);
