@@ -36,9 +36,8 @@ $code-line-height: 1.4 !default;
 $content-line-height: 1.5 !default;
 $body-heading-line-height: 1.25 !default;
 
-// Font size
+// FONT
 // `-sm` suffix is the size at the small (and above) media query
-
 $root-font-size: 10px !default;
 $font-size-1: $root-font-size !default;
 $font-size-1-sm: $root-font-size + 1px !default;
@@ -52,9 +51,8 @@ $font-size-8: $root-font-size + 8px !default; // h1
 $font-size-9: 2.25rem !default;
 $font-size-10: 2.625rem !default;
 $font-size-10-sm: 3rem !default;
-*/
 
-// Colors
+// COLOR
 
 $header-line: $border rgb(200,200,200);
 
