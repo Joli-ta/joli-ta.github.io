@@ -62,3 +62,8 @@ h2,
 .breadcrumb-nav-list-item {
   @include fs-3;
 }
+
+// Bold
+strong {
+  font-weight: 500;
+}
