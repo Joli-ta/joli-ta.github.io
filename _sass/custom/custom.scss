@@ -11,7 +11,7 @@
 pre {
   font-size: $root-font-size - 2px;
   padding: 4px 12px;
-  border: 1px solid rgb(100,100,100);
+  border: 1px solid rgb(0,200,0);
   border-radius: $border-radius;
   line-height: $code-line-height;
 }
@@ -19,7 +19,6 @@ pre {
 code {
   font-size: $root-font-size - 2px;
   border-radius: $border-radius;
-  border: 1px solid rgb(0,255,0);
 }
 
 /* code blocks are inside preformatted highlight */
