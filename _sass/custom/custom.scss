@@ -50,18 +50,14 @@ pre {
 
 code {
   @include fs-3;
-  border-radius: 10px;
   border: none;
 }
 
 /* code blocks are inside preformatted highlight */
 /* border-radius: $border-radius; */
-/*
-.highlight {
+div.highlighter-rouge {
   border-radius: 10px;
-  line-height: $code-line-height;
-  border: $border $border-color;
-} *.
+}
 
 :not(figure) {
   & > code, pre {
