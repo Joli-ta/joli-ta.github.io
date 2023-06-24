@@ -57,3 +57,8 @@ h2,
   @include fs-5;
   font-weight: 500;
 }
+
+// Top of page navigation, increase size
+.breadcrumb-nav-list-item {
+  @include fs-3;
+}
