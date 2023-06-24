@@ -131,7 +131,6 @@ td, .gist .blob-code {
 .nocomment {
   all: revert;
   @include fs-4;
-  $blue-color: $blue-000;
   --nc-background: $body-background-color;
   --nc-container-font-family: $body-font-family;
   --nc-container-font-size: $font-size-4;
@@ -147,7 +146,7 @@ td, .gist .blob-code {
   --nc-textarea-font-size: $font-size-4;
   --nc-text-background: rgb(255,255,255); // comment box text block background
   --nc-text-color: $body-text-color;
-  --nc-text-color-dark: $blue-color;
-  --nc-primary-color: $blue-color;
+  --nc-text-color-dark: $blue-000;
+  --nc-primary-color: $blue-000;
   --nc-primary-contrast: rgb(255,255,255);
 }
