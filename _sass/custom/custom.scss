@@ -5,22 +5,22 @@
 // base style:
 // https://github.com/just-the-docs/just-the-docs/blob/24372f02a9867af92d0a9a9e2d3418485bd4e1c8/_sass/base.scss
 
-// Images
+// IMAGE
 
 // Specify width %:
 // <img class="centered" width="10%;" src="/assets/images/qr-primal-verity.png" />
 // 2023.06.15 removed margin: auto; replaced to give space top and bottom
 .centered {
-  	border-radius: $border-radius;
-  	border: $header-line;
-  	margin-left: auto;
-  	margin-right: auto;
-  	margin-top: 20px;
-  	margin-bottom: 20px;
-  	display: block;
+  border-radius: $border-radius;
+  border: $header-line;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
 }
 
-// Code block
+// CODE
 
 // $border-color: $grey-dk-200 !default; // dark theme border
 // light theme does not have it. Default variables: $border-color: $grey-lt-100 !default;
@@ -63,7 +63,7 @@ td, th, .gist, .blob-code {
   @include fs-3;
 }
 
-// Paragraphs
+// PARAGRAPH
 
 body {
   @include fs-4;
@@ -98,7 +98,8 @@ strong {
   @include fs-3;
 }
 
-/* nocomment https://github.com/fiatjaf/nocomment */
+// NOCOMMENT 
+/* https://github.com/fiatjaf/nocomment */
 /* put script inside <span class="nocomment"> */
 /* background: outer background = body background */
 /* text-background: comment box background = code block background */
