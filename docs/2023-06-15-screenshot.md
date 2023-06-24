@@ -38,7 +38,7 @@ Or modify the setting in Xcode if you have the plist file open.
 **Note**: if you don't have Xcode, there is no need to install that big beast. Alternatives are: 
 1. [PrefsEditor](http://apps.tempel.org/PrefsEditor/) - a free utility
 2. [PrefEdit](http://www.bresink.com/osx/PrefEdit.html) - paid, with a demo version that can handle up to 5 items in a `.plist`
-3. Forget installing software and do it all in the command line with `plutil -convert xml1`. That whole command is covered in a [previous post]({% post_url 2023-06-14-keys %}). In this case I see that the shadow is disabled and the target is set to my ~/Desktop/:
+3. Forget installing software and do it all in the command line with `plutil -convert xml1`. That whole command is covered in a [previous post]({% link docs/2023-06-14-keys.md %}). In this case I see that the shadow is disabled and the target is set to my ~/Desktop/:
 
 ```
 $ plutil -convert xml1 ~/Library/Preferences/com.apple.screencapture.plist -o -|pl|grep -v noop:|ruby -pe'$_.gsub!(/[^ -~\n]/){"\\U%04x"%$&.ord}'
