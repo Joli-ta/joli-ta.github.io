@@ -45,14 +45,10 @@ pre {
   @include fs-3;
   padding: 4px 12px;
   line-height: $code-line-height;
-  border-radius: 15px;
-  border: 1px solid red;
 }
 
 code {
   @include fs-3;
-  border-radius: 15px;
-  border: 1px solid red;
 }
 
 /* inline code is affected, not code blocks */
@@ -61,13 +57,13 @@ code.highlighter-rouge {
   border: none;
 }
 
-/*
 :not(figure) {
   & > code, pre {
     padding: 0.2em 0.15em;
     font-weight: 400;
     background-color: $code-background-color;
     border-radius: $border-radius;
+    border: 1px solid rgb(255,0,0);
   }
 }
 */
