@@ -58,6 +58,7 @@ code.highlighter-rouge {
 }
 
 div.highlighter-rouge > div.highlight {
+  border-radius: $border-radius;
   border: 1px solid rgb(255,0,0);
 }
 
