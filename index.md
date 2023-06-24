@@ -23,5 +23,5 @@ If you have any suggestions or find any issues please reach out via the <a href=
 <h2>Latest articles</h2>
 
 <h3 style="border-bottom: none;">
-  [No need for the Emoji plugin?]({% link docs/2023-06-24-emoji.md %}
+  [No need for the Emoji plugin?]({% link docs/2023-06-24-emoji.md %})
 </h3>
