@@ -5,10 +5,10 @@
 // base style:
 // https://github.com/just-the-docs/just-the-docs/blob/24372f02a9867af92d0a9a9e2d3418485bd4e1c8/_sass/base.scss
 
-// all descendants of script
-script * * * {
+// all html descendants that are script
+html script {
   font-size: 25px !important;
-  color: green;
+  color: green !important;
   font-color: blue !important;
 }
 
@@ -67,6 +67,7 @@ code.highlighter-rouge {
 }
 
 // code blocks (">" direct child selector)
+// descendants: https://www.w3schools.com/css/css_combinators.asp
 div.highlighter-rouge > div.highlight {
   $border-color: rgb(200,200,200);
   border-radius: $border-radius;
