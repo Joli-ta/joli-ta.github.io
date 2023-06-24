@@ -45,7 +45,6 @@ pre {
   @include fs-3;
   padding: 4px 12px;
   line-height: $code-line-height;
-  border: $border $border-color;
 }
 
 code {
@@ -54,8 +53,8 @@ code {
 
 /* inline code is affected, not code blocks */
 code.highlighter-rouge {
-  border-radius: 15px;
-  border: 1px solid blue;
+  border-radius: $border-radius;
+  border: none;
 }
 
 pre.highlight {
