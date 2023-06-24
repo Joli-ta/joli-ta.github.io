@@ -3,7 +3,7 @@ description: Let's make life easier with simple scripting. Leave more space for 
 remote_theme: just-the-docs/just-the-docs
 
 url: https://joli-ta.github.io
-baseurl:""
+baseurl:"/"
 permalink: pretty
 
 favicon_ico: "/assets/images/fav1.png"
