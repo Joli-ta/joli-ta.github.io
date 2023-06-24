@@ -122,5 +122,5 @@ strong {
 td, th, .gist, .blob-code {
   all: revert;
   font-family: $monospace !important;
-  font-size: 13px !important;
+  @include fs-3;
 }
