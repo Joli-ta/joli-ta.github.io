@@ -55,9 +55,10 @@ $font-size-10-sm: 3rem !default;
 
 // Colors
 
-$header-line: $border rgb(175,175,175);
+$header-line: $border rgb(200,200,200);
 
-// $code-background-color: rgb(175,175,175); // $grey-lt-000 !default; // light theme
+// $code-background-color: $grey-lt-000 !default; // light theme
 // $border: 1px solid !default;
 // $border-radius: 4px !default;
-// $border-color: $grey-lt-100 !default;
+// $border-color: $grey-lt-000 !default; // #eeebee = rgb(238,235,238) // specified in light.scss
+      // $code-background-color: #31343f; = rgb(49,52,63) // specified in dark.scss
