@@ -17,5 +17,14 @@ pre {
 }
 
 code {
-  font-size: $root-font-size - 1px;
+  font-size: $root-font-size - 2px;
+  border-radius: $border-radius;
+}
+
+/* code blocks are inside preformatted highlight */
+pre.highlight {
+	font-size: $root-font-size - 2px;
+  border-radius: $border-radius;
+  border: 1px solid rgb(100,100,100);
+  line-height: $code-line-height;
 }
