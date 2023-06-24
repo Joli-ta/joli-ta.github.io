@@ -90,12 +90,11 @@ h2,
 
 // More space for title
 //.side-bar {
-//  padding-top: 10px; - doesn't work for the bottom
+//  padding-top: 10px; - doesn't help for the bottom
 //}
 div.site-header > a.site-title {
-  padding-bottom: revert;
+  padding-top: 20px !important;
   padding-bottom: 20px !important;
-  border: 1px solid red;
 }
 
 // Bold
