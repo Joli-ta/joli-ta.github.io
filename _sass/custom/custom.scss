@@ -103,7 +103,7 @@ strong {
 /* primary-contrast: 'Get Key' button text color */
 .nocomment {
   all: revert;
-  font-size: 14px !important;
+  font-size: $root-font-size + 5px !important;
   --nc-background: $base-background;
   --nc-container-font-family: $base-font-family;
   --nc-container-font-size: $base-font-size;
@@ -129,7 +129,7 @@ strong {
 td, th, .gist, .blob-code {
   all: revert;
   font-family: $monospace !important;
-  font-size: 13px !important;
+  font-size: $root-font-size + 3px !important;
   font-weight: 200 !important;
 }
 // font-family: $monospace !important;
