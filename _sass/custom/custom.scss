@@ -66,17 +66,18 @@ h6,
 
 // Code block
 
-$border-color: $grey-dk-200 !default; // dark theme border
+// $border-color: $grey-dk-200 !default; // dark theme border
 // light theme does not have it. Default variables: $border-color: $grey-lt-100 !default;
 
 // background-color: $code-background-color;
-pre {
+/* pre {
   @include fs-3;
   padding: 4px 12px;
   border-radius: $border-radius;
   line-height: $code-line-height;
   border: $border $border-color;
 }
+*/
 
 code {
   @include fs-3;
@@ -85,11 +86,12 @@ code {
 }
 
 /* code blocks are inside preformatted highlight */
-//.highlight {
-//  border-radius: $border-radius;
-//  line-height: $code-line-height;
-//  border: $border $border-color;
-//}
+/* border-radius: $border-radius; */
+.highlight {
+  border-radius: 10px;
+  line-height: $code-line-height;
+  border: $border $border-color;
+}
 
 :not(figure) {
   & > code, pre {
