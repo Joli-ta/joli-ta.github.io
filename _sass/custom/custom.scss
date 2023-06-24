@@ -119,7 +119,7 @@ strong {
 
 // scripts, comment button to be at fs-3?
 td, th, .gist, .blob-code {
-  all: revert;
-  font-family: $monospace;
-  font-size: 12px !important;
+  all: revert! important;
+  font-family: $monospace !important;
+  font-size: 13px !important;
 }
