@@ -41,14 +41,14 @@ $body-heading-line-height: 1.25 !default;
 
 $root-font-size: 10px !default;
 $font-size-1: $root-font-size !default;
-$font-size-1-sm: $root-font-size + 2px !default;
-$font-size-2: $root-font-size + 4px !default; // h4 - uppercased!, h6 not uppercased, text-small
-$font-size-3: $root-font-size + 6px !default; // h5
-$font-size-4: $root-font-size !default;
-$font-size-5: $root-font-size + 10px !default; // h3
-$font-size-6: $root-font-size + 12px !default; // h2
-$font-size-7: $root-font-size + 14px !default;
-$font-size-8: $root-font-size + 16px !default; // h1
+$font-size-1-sm: $root-font-size + 1px !default;
+$font-size-2: $root-font-size + 2px !default; // h4 - uppercased!, h6 not uppercased, text-small
+$font-size-3: $root-font-size + 3px !default; // h5
+$font-size-4: $root-font-size + 4px !default;
+$font-size-5: $root-font-size + 5px !default; // h3
+$font-size-6: $root-font-size + 6px !default; // h2
+$font-size-7: $root-font-size + 7px !default;
+$font-size-8: $root-font-size + 8px !default; // h1
 $font-size-9: 2.25rem !default;
 $font-size-10: 2.625rem !default;
 $font-size-10-sm: 3rem !default;
