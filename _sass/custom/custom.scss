@@ -101,6 +101,11 @@ strong {
   font-weight: 550;
 }
 
+// Small test (Page last modified, footer)
+.text-small {
+  @include fs-3;
+}
+
 /* nocomment https://github.com/fiatjaf/nocomment */
 /* put script inside <span class="nocomment"> */
 /* background: outer background = body background */
