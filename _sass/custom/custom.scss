@@ -69,6 +69,7 @@ h6 {
 }
 #toctitle {
   font-family: $header-font-family;
+  border: none;
 }
 h1,
 .text-alpha {
@@ -89,11 +90,11 @@ h2,
 
 // More space for title
 //.side-bar {
-//  padding-top: 10px;
+//  padding-top: 10px; - doesn't work for the bottom
 //}
-a.site-title {
-  margin-top: 20px;
-  margin-bottom: 20px;
+div.site-header > a.site-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 // Bold
