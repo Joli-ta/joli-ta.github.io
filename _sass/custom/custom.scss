@@ -93,8 +93,7 @@ h2,
 //  padding-top: 10px; - doesn't help for the bottom
 //}
 div.side-bar > div.site-header {
-  padding-top: revert;
-  padding-bottom: revert;
+  padding: revert;
   padding-top: 20px !important;
   padding-bottom: 20px !important;
 }
