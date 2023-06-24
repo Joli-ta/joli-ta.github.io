@@ -58,7 +58,7 @@ code.highlighter-rouge {
 }
 
 // code blocks (">" direct child selector)
-$border-color: $grey-lt-200;
+$border-color: $grey-lt-300;
 div.highlighter-rouge > div.highlight {
   border-radius: $border-radius;
   border: $border $border-color;
