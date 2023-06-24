@@ -125,8 +125,7 @@ td, .gist .blob-code {
 /* primary-contrast: 'Get Key' button text color */
 .nocomment {
   all: revert;
-  font-family: $body-font-family;
-  font-size: $font-size-4;
+  font-size: $font-size-2;
   --nc-background: $base-background;
   --nc-container-font-family: $base-font-family;
   --nc-container-font-size: $base-font-size;
