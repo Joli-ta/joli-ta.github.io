@@ -93,8 +93,8 @@ h2,
 //  padding-top: 10px; - doesn't work for the bottom
 //}
 div.site-header > a.site-title {
-  margin-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: revert;
+  padding-bottom: 20px !important;
   border: 1px solid red;
 }
 
