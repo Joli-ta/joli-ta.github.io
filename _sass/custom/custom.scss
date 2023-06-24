@@ -50,17 +50,16 @@ pre {
 
 code {
   @include fs-3;
-  border: none;
 }
 
 /* inline code is affected, not code blocks */
-.highlighter-rouge {
-  border-radius: $border-radius;
-  border: none;
+code.highlighter-rouge {
+  border-radius: 15px;
+  border: 1px solid blue;
 }
 
-div.highlight {
-  border-radius: 10px;
+pre.highlight {
+  border-radius: 7px;
   border: 1px solid red;
 }
 
