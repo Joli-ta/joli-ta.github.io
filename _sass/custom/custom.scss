@@ -44,14 +44,13 @@ h6,
 pre {
   @include fs-3;
   padding: 4px 12px;
-  border-radius: 10px;
   line-height: $code-line-height;
   border: $border $border-color;
 }
 
 code {
   @include fs-3;
-  border-radius: $border-radius;
+  border-radius: 10px;
   border: none;
 }
 
