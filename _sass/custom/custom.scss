@@ -64,6 +64,7 @@ h4,
 h5,
 h6 {
   font-family: $header-font-family;
+  padding-bottom: 5px;
   border-bottom: $border $border-color;
 }
 #toctitle {
@@ -89,6 +90,7 @@ h2,
 // More space for title
 .side-bar {
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 // Bold
