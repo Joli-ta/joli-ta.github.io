@@ -57,7 +57,7 @@ code.highlighter-rouge {
   border: none;
 }
 
-pre.highlight {
+code {
   border-radius: 7px;
   border: 1px solid red;
 }
@@ -103,7 +103,7 @@ strong {
 
 // Small test (Page last modified, footer)
 .text-small {
-  @include fs-4;
+  @include fs-3;
 }
 
 /* nocomment https://github.com/fiatjaf/nocomment */
