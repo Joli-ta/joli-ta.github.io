@@ -89,9 +89,6 @@ h2,
 }
 
 // More space for title
-.side-bar {
-  padding-top: 10px;
-}
 div.side-bar > div.site-header,
 div.site-header > .site-title {
   padding-top: 10px !important;
@@ -99,6 +96,8 @@ div.site-header > .site-title {
 }
 div.site-header > a.site-title {
   line-height: 1.4; // lh-tight class is $body-heading-line-height = 1.2
+  font-size: revert;
+  @include fs-3;
 }
 
 // Bold
