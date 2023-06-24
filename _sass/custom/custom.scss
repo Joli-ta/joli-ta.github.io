@@ -76,13 +76,13 @@ body {
 }
 h1,
 .text-alpha {
-  @include fs-6;
+  @include fs-7;
   font-weight: 500;
 }
 h2,
 .text-beta,
 #toctitle {
-  @include fs-5;
+  @include fs-6;
   font-weight: 500;
 }
 
