@@ -22,7 +22,7 @@ code {
 }
 
 /* code blocks are inside preformatted highlight */
-pre.highlight {
+.highlight {
   font-size: $root-font-size - 2px;
   border-radius: $border-radius;
   border: 1px solid rgb(100,100,100);
