@@ -53,12 +53,18 @@ code {
   border: none;
 }
 
-/* code blocks are inside preformatted highlight */
-/* border-radius: $border-radius; */
+/* inline code is affected, not code blocks */
 .highlighter-rouge {
-  border-radius: 10px;
+  border-radius: $border-radius;
+  border: none;
 }
 
+div.highlight {
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+/*
 :not(figure) {
   & > code, pre {
     padding: 0.2em 0.15em;
@@ -67,6 +73,7 @@ code {
     border-radius: $border-radius;
   }
 }
+*/
 // removed border from inline code border: $border $border-color;
 
 // Paragraphs
