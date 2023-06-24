@@ -19,6 +19,27 @@ last_edit_time_format: "%Y.%m.%d" # uses ruby's time format: https://ruby-doc.or
 
 enable_copy_code_button: false # For copy button on code
 
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+kramdown:
+  input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    default_lang: 'plaintext' # swift, plaintext does nothing https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      # change to true to show line numbers
+      line_numbers: false
+      start_line: 1
+
 search_enabled: true
 search:
   # Split pages into sections that can be searched individually
