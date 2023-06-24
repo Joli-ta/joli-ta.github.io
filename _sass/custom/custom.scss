@@ -58,6 +58,18 @@ body {
   @include fs-4;
 }
 h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#toctitle {
+  font-family: $header-font-family;
+}
+#toctitle {
+  font-family: $header-font-family;
+}
+h1,
 .text-alpha {
   @include fs-7;
   font-weight: 500;
@@ -98,7 +110,7 @@ strong {
 .gist .blob-code {
   all: revert;
   font-family: $monospace !important;
-  font-size: $font-size-3 !important;
+  font-size: $font-size-4 !important;
   font-weight: 200 !important;
 }
 
