@@ -5,9 +5,13 @@
 // base style:
 // https://github.com/just-the-docs/just-the-docs/blob/24372f02a9867af92d0a9a9e2d3418485bd4e1c8/_sass/base.scss
 
-script > pre {
-  font-size: 10px;
-  border: 1px solid red;
+html {
+  @include fs-3;
+}
+
+body,
+p {
+  @include fs-4;
 }
 
 script > span {
