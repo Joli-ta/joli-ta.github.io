@@ -7,12 +7,16 @@
 
 // Code block
 
+$border-color: $grey-dk-200 !default; // dark theme border
+// light theme does not have it. Default variables: $border-color: $grey-lt-100 !default;
+
 // background-color: $code-background-color;
 pre {
   font-size: $font-size-4;
   padding: 4px 12px;
   border-radius: $border-radius;
   line-height: $code-line-height;
+  border: $border $border-color;
 }
 
 code {
