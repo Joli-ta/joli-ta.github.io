@@ -6,11 +6,8 @@
 // https://github.com/just-the-docs/just-the-docs/blob/24372f02a9867af92d0a9a9e2d3418485bd4e1c8/_sass/base.scss
 
 script {
-  @include fs-2;
-}
-
-script > div {
-  @include fs-5;
+  font-size: revert;
+  font-size: 10px;
 }
 
 h1,
