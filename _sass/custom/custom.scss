@@ -9,20 +9,20 @@
 
 // background-color: $code-background-color;
 pre {
-  font-size: $root-font-size - 2px;
+  font-size: $font-size-2;
   padding: 4px 12px;
   border-radius: $border-radius;
   line-height: $code-line-height;
 }
 
 code {
-  font-size: $root-font-size - 2px;
+  font-size: $font-size-2;
   border-radius: $border-radius;
 }
 
 /* code blocks are inside preformatted highlight */
 .highlight {
-  font-size: $root-font-size - 2px;
+  font-size: $font-size-2;
   border-radius: $border-radius;
   line-height: $code-line-height;
 }
