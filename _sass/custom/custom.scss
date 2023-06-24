@@ -46,4 +46,13 @@ code {
 body {
   @include fs-4;
 }
-// font-size: $font-size-5;
+h1,
+.text-alpha {
+  @include fs-7;
+  font-weight: 700;
+}
+h2,
+.text-beta {
+  @include fs-6;
+  font-weight: 700;
+}
