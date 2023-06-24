@@ -2,7 +2,7 @@ title: Optimize for happiness
 description: Let's make life easier with simple scripting. Leave more space for joy. Grateful for everyone's encouragement and support!
 remote_theme: just-the-docs/just-the-docs
 
-url: "https://joli-ta.github.io"
+url: https://joli-ta.github.io
 baseurl: "/"
 permalink: pretty
 
@@ -10,7 +10,7 @@ favicon_ico: "/assets/images/fav1.png"
 # logo: "/assets/images/fav1.png" # displayed instead of title
 
 aux_links:
-  GitHub Repository: https://github.com/Joli-ta/joli-ta.github.io
+  VerityJ on GitHub: https://github.com/verityj/verityj.github.io
 
 # Google Analytics Tracking (optional)
 # Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
