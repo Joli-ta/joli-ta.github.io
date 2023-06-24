@@ -6,8 +6,8 @@
 // https://github.com/just-the-docs/just-the-docs/blob/24372f02a9867af92d0a9a9e2d3418485bd4e1c8/_sass/base.scss
 
 // all descendants of script
-script#root {
-  font-size: 25px;
+script * * * {
+  font-size: 25px !important;
   color: green;
   font-color: blue !important;
 }
