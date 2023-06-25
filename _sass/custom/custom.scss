@@ -56,10 +56,10 @@ div.highlighter-rouge > div.highlight {
 div.highlighter-rouge,
 div.listingblock > div.content,
 figure.highlight {
+  background-color: revert;
+  background-color: red !important;
   // copy button (or other button)
   > button {
-    background-color: revert;
-    background-color: red !important;
     svg {
       fill: revert;
       fill: none !important;
@@ -76,10 +76,8 @@ figure.highlight {
   }
   // the button can be seen by doing a simple hover in the code, there is no need to go over the location of the button
   &:hover {
-    > button {
-      fill: revert;
-      fill: blue !important;
-    }
+    background-color: revert;
+    background-color: red !important;
   }
 }
 
