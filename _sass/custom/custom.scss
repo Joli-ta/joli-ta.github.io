@@ -60,6 +60,7 @@ figure.highlight {
   > button {
     top: $border-radius;
     right: $border-radius;
+    box-sizing: content-box - 5px;
   }
 }
 
