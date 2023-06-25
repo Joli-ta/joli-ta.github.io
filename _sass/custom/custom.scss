@@ -57,10 +57,10 @@ div.highlighter-rouge,
 div.listingblock > div.content,
 figure.highlight {
   > button {
-    width: unset;
-    width: $sp-2;
+    top: 5px;
+    right: 5px;
     box-sizing: unset;
-    box-sizing: 90%;
+    box-sizing: border-box;
   }
 }
 
