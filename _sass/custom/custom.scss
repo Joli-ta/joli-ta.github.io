@@ -64,6 +64,15 @@ figure.highlight {
       fill: revert;
       fill: transparent !important;
     }
+    &:active {
+      fill: revert;
+      fill: transparent !important;
+    }
+
+    &:focus {
+      fill: revert;
+      fill: transparent !important;
+    }
   }
 }
 
