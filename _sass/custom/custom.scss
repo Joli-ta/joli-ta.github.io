@@ -59,8 +59,10 @@ figure.highlight {
   // copy button (or other button)
   // the button appear only when there is a hover on the code or focus on button
   > button {
+    $border-color: rgb(200,200,200);
     border-radius: $border-radius;
     border-right: $border $border-color;
+    border-top: $border $border-color;
   }
 }
 
