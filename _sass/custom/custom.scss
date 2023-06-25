@@ -52,35 +52,6 @@ div.highlighter-rouge > div.highlight {
   border: $border $border-color;
 }
 
-// select top level container
-div.highlighter-rouge,
-div.listingblock > div.content,
-figure.highlight {
-  background-color: revert;
-  background-color: red !important;
-  // copy button (or other button)
-  > button {
-    svg {
-      fill: revert;
-      fill: none !important;
-    }
-    &:active {
-      fill: revert;
-      fill: none !important;
-    }
-
-    &:focus {
-      fill: revert;
-      fill: none !important;
-    }
-  }
-  // the button can be seen by doing a simple hover in the code, there is no need to go over the location of the button
-  &:hover {
-    background-color: revert;
-    background-color: red !important;
-  }
-}
-
 // PARAGRAPH
 
 body {
@@ -163,7 +134,6 @@ td, .gist .blob-code {
 /* primary-color: button background and border. $blue-000 = #2c84fa */
 /* primary-contrast: 'Get Key' button text color */
 .nocomment {
-  all: revert;
   --nc-background: $body-background-color;
   --nc-container-font-family: $body-font-family;
   --nc-container-font-size: $font-size-4;
@@ -186,5 +156,5 @@ td, .gist .blob-code {
 .nocomment button {
   font-size: revert;
   font-family: revert;
-  @include fs-4;
+  font-size: $font-size-4;
 }
