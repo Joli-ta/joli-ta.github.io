@@ -10,9 +10,10 @@ div.highlighter-rouge,
 div.listingblock > div.content,
 figure.highlight {
   > button {
-    right: 4px;
-    top: 4px;
-    box-sizing: border-box;
+    right: 1px;
+    top: 1px;
+    border-radius: 4px;
+    width: 10px;
     border: 1px solid red;
   }
 }
