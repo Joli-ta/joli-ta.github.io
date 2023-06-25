@@ -59,10 +59,10 @@ figure.highlight {
   // copy button (or other button)
   > button {
     background-color: revert;
-    background-color: transparent;
+    background-color: transparent !important;
     svg {
       fill: revert;
-      fill: transparent;
+      fill: transparent !important;
     }
   }
 }
@@ -150,8 +150,6 @@ td, .gist .blob-code {
 /* primary-contrast: 'Get Key' button text color */
 .nocomment {
   all: revert;
-  font-size: revert;
-  @include fs-4;
   --nc-background: $body-background-color;
   --nc-container-font-family: $body-font-family;
   --nc-container-font-size: $font-size-4;
@@ -173,5 +171,7 @@ td, .gist .blob-code {
 }
 .nocomment button {
   font-size: revert;
-  @include fs-3;
+  font-family: revert;
+  font-family: $monospace;
+  font-size: $font-size-2;
 }
