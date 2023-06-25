@@ -60,6 +60,7 @@ figure.highlight {
   // the button appear only when there is a hover on the code or focus on button
   > button {
     border-radius: $border-radius;
+    border-right: $border $border-color;
   }
 }
 
