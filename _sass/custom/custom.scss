@@ -52,6 +52,21 @@ div.highlighter-rouge > div.highlight {
   border: $border $border-color;
 }
 
+div.highlighter-rouge,
+div.listingblock > div.content,
+figure.highlight {
+  background-color: revert;
+  background-color: none !important;
+  margin-right: 4px;
+  > button {
+    width: revert;
+    width: $sp-2;
+    box-sizing: revert;
+    box-sizing: 90%;
+  }
+}
+
+
 // PARAGRAPH
 
 body {
