@@ -52,16 +52,14 @@ div.highlighter-rouge > div.highlight {
   border: $border $border-color;
 }
 
+// copy button
 div.highlighter-rouge,
 div.listingblock > div.content,
 figure.highlight {
-  background-color: revert;
-  background-color: none !important;
-  margin-right: 4px;
   > button {
-    width: revert;
+    width: unset;
     width: $sp-2;
-    box-sizing: revert;
+    box-sizing: unset;
     box-sizing: 90%;
   }
 }
