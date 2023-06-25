@@ -59,7 +59,8 @@ figure.highlight {
   // copy button (or other button)
   > button {
     svg {
-      fill: none;
+      fill: revert;
+      fill: none !important;
     }
   }
 }
