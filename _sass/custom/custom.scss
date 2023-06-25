@@ -58,9 +58,10 @@ div.listingblock > div.content,
 figure.highlight {
   // copy button (or other button)
   > button {
+    background-color: none;
     svg {
       fill: revert;
-      fill: none !important;
+      fill: none;
     }
   }
 }
