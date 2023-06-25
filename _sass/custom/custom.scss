@@ -58,9 +58,9 @@ div.listingblock > div.content,
 figure.highlight {
   // copy button (or other button)
   > button {
-    top: $border-radius;
-    right: $border-radius;
-    box-sizing: content-box - 5px;
+    svg {
+      fill: none;
+    }
   }
 }
 
