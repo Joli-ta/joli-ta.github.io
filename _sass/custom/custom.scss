@@ -12,6 +12,8 @@ figure.highlight {
   > button {
     right: 4px;
     top: 4px;
+    box-sizing: border-box;
+    border: 1px solid red;
   }
 }
 
