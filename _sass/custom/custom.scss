@@ -11,6 +11,7 @@ div.listingblock > div.content,
 figure.highlight {
   > button {
     $border-color: rgb(200,200,200);
+    width: 14px;  // default $sp-3 = 0.75 rem = 12 px
     right: 5px;
     top: 5px;
     border-radius: $border-radius;
