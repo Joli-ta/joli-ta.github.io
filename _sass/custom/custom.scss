@@ -144,7 +144,7 @@ td, .gist .blob-code {
 /* text-color-dark = "from <nostr username>" */
 /* primary-color: button background and border. $blue-000 = #2c84fa */
 /* primary-contrast: 'Get Key' button text color */
-.nocomment {
+.nocomment * {
   all: revert;
   font-size: revert;
   @include fs-4;
