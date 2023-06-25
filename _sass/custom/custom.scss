@@ -5,23 +5,6 @@
 // base style:
 // https://github.com/just-the-docs/just-the-docs/blob/24372f02a9867af92d0a9a9e2d3418485bd4e1c8/_sass/base.scss
 
-// copy button
-div.highlighter-rouge,
-div.listingblock > div.content,
-figure.highlight {
-  > button {
-    $border-color: rgb(200,200,200);
-    width: 14px;  // default $sp-3 = 0.75 rem = 12 px
-    right: 5px;
-    top: 5px;
-    border-radius: $border-radius;
-    border: $border $border-color;
-    background-color: $white;
-  }
-}
-
-
-
 // IMAGE
 
 // Specify width %:
@@ -67,6 +50,21 @@ div.highlighter-rouge > div.highlight {
   $border-color: rgb(200,200,200);
   border-radius: $border-radius;
   border: $border $border-color;
+}
+
+// copy button
+div.highlighter-rouge,
+div.listingblock > div.content,
+figure.highlight {
+  > button {
+    $border-color: rgb(200,200,200);
+    width: 14px;  // default $sp-3 = 0.75 rem = 12 px
+    right: 5px;
+    top: 5px;
+    border-radius: $border-radius;
+    border: $border $border-color;
+    background-color: $white;
+  }
 }
 
 // PARAGRAPH
