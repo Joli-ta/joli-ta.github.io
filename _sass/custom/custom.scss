@@ -52,6 +52,18 @@ div.highlighter-rouge > div.highlight {
   border: $border $border-color;
 }
 
+// select top level container
+div.highlighter-rouge,
+div.listingblock > div.content,
+figure.highlight {
+  // copy button (or other button)
+  // the button appear only when there is a hover on the code or focus on button
+  > button {
+    top: 5px;
+    right: 5px;
+  }
+}
+
 // PARAGRAPH
 
 body {
